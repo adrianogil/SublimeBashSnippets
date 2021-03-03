@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+if [ -z "\$${1:variable_name}" ]
+then
+      echo "\$${1:variable_name} is empty"
+else
+      echo "\$${1:variable_name} is NOT empty"
+fi
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bash verify empty variable</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.Bash</scope> -->
+</snippet>
